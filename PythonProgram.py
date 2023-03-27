@@ -1,11 +1,11 @@
-def isPalindrome(s):
-  rev_s = s[::-1]
-  if s== rev_s:
+def isPalindrome(string):
+  rev_string = string[::-1]
+  if string== rev_string:
     return True 
   return False
 
-s = input() 
-if isPalindrome(s):
-  print(s,"is a Palindrome")
+user_string = input() 
+if isPalindrome(user_string):
+  print(user_string,"is a Palindrome")
 else:
-  print(s,"is not a Palindrome")
+  print(user_string,"is not a Palindrome")
